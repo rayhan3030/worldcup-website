@@ -224,3 +224,22 @@ ul {
 }
 
 /* -----------------------------------------------সমাপ্ত --------------------------------------------------- */
+#evil {
+    padding-left: 27px;
+    font-weight: 700;
+}
+
+.flag-img img {
+    width: 73.04px;
+    height: 46.18px;
+    margin: 70px 10px 0px 10px;
+}
+
+.flag-div {
+    display: inline-block;
+}
+
+#vs {
+    font-weight: 700;
+    color: slategray;
+}
