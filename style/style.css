@@ -8,7 +8,72 @@
 /* Body style ;)  */
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
 }
+
+
+/* responsive  */
+@media screen and (max-width: 576px) {
+    .top-div {
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        padding-bottom: 500px;
+
+    }
+
+    .banner-div img {
+        width: 30em;
+        height: 30em;
+        margin-top: 700px;
+        margin-left: 0px;
+    }
+
+
+
+    .article-div h1 {
+        font-weight: 500;
+        font-size: 55px;
+        margin-left: 10px;
+        padding-top: 450px;
+    }
+
+    .article-div a {
+        margin: 20px;
+    }
+
+    .mid-flex {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 100px;
+    }
+
+    .left-mid {
+        padding: 21px;
+        background-color: transparent;
+        width: 218.4px;
+        height: 218.4px;
+        border-radius: 10px;
+        display: grid;
+        justify-content: center;
+        align-content: space-evenly;
+
+    }
+
+    .right-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 17.5px;
+        margin-left: 0px;
+    }
+
+    footer {
+        background-color: black;
+        width: fit-content;
+        height: 310px;
+    }
+}
+
 
 /* top section or top div or top parents styles ------------------------ */
 /* first child style  */
@@ -216,12 +281,12 @@ ul>li a {
 
 ul {
     display: flex;
-    width: 100%;
+    width: 96%;
     justify-content: space-evenly;
 
 }
 
-/* -----------------------------------------------সমাপ্ত --------------------------------------------------- */
+/*--------------------------------- second html file upcoming match custom css are here ----------------------------------------------------------*/
 #evil {
     padding-left: 27px;
     font-weight: 700;
@@ -242,57 +307,4 @@ ul {
     color: slategray;
 }
 
-/* responsive  */
-@media screen and (max-width: 576px) {
-    .top-div {
-        display: flex;
-        flex-direction: column;
-        padding-top: 30px;
-        padding-bottom: 500px;
-    }
-
-    .banner-div img {
-        width: 30em;
-        height: 30em;
-        margin-top: 700px;
-        margin-left: 60px;
-    }
-
-
-
-    .article-div h1 {
-        font-weight: 500;
-        font-size: 55px;
-        margin-left: 10px;
-        padding-top: 450px;
-    }
-
-    .article-div a {
-        margin: 20px;
-    }
-
-    .mid-flex {
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: 100px;
-    }
-
-    .left-mid {
-        padding: 21px;
-        background-color: transparent;
-        width: 218.4px;
-        height: 218.4px;
-        border-radius: 10px;
-        display: grid;
-        justify-content: center;
-        align-content: space-evenly;
-
-    }
-
-    .right-section {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 17.5px;
-        margin-left: 0px;
-    }
-}
+/*--------------------------------- second html file upcoming match custom ends here ----------------------------------------------------------*/
