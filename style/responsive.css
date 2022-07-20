@@ -1,5 +1,13 @@
 /* Smaller Device */
 @media screen and (max-width:576px) {
+    body {
+        position: relative;
+        width: 375px;
+        height: 3587px;
+
+        background: #FFFFFF;
+    }
+
     .top-div {
         height: 472px;
         width: 334px;
@@ -14,23 +22,29 @@
     }
 
     .article-div {
+        position: absolute;
         width: 258px;
         height: 178px;
-        padding-top: 0px;
-        padding-left: 0px;
-        padding-right: 0px;
+        left: 59px;
+        top: 72px;
+
     }
 
     h1 {
+        position: absolute;
         width: 228px;
         height: 66px;
-        color: rgb(255, 255, 255);
-        margin-left: 48px;
-        margin-top: -117px;
-        font-size: 22px;
+        left: 74px;
+        top: 72px;
+
+        font-family: 'Poppins';
+        font-style: normal;
         font-weight: 700;
+        font-size: 22px;
         line-height: 33px;
         text-align: center;
+
+        color: #FFFFFF;
     }
 
     #top-p {
@@ -41,14 +55,22 @@
     }
 
     .top-p-2 {
-        color: rgb(218, 210, 210);
         position: absolute;
         width: 258px;
         height: 48px;
         left: 59px;
         top: 146px;
-        font-size: 12.8;
+
+        font-family: 'Poppins';
+        font-style: normal;
         font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+
+        text-align: center;
+
+        color: rgba(255, 255, 255, 0.8);
     }
 
     #watch-live {
@@ -58,12 +80,15 @@
         align-items: flex-start;
         padding: 8px 12px;
         gap: 10px;
+
         position: absolute;
-        width: 109px;
-        height: 29px;
+        width: 161px;
+        height: 40px;
         left: 108px;
         top: 210px;
-        margin-top: 22px;
+
+        background: #DD0000;
+        border-radius: 5px;
     }
 
     .banner-div img {
