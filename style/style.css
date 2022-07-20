@@ -11,76 +11,9 @@ body {
     margin: 0px;
 }
 
-
-/* responsive  */
-@media screen and (max-width: 576px) {
-    .top-div {
-        display: flex;
-        flex-direction: column;
-        padding-top: 30px;
-        padding-bottom: 500px;
-
-    }
-
-    .banner-div img {
-        width: 30em;
-        height: 30em;
-        margin-top: 700px;
-        margin-left: 0px;
-    }
-
-
-
-    .article-div h1 {
-        font-weight: 500;
-        font-size: 55px;
-        margin-left: 10px;
-        padding-top: 450px;
-    }
-
-    .article-div a {
-        margin: 20px;
-    }
-
-    .mid-flex {
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: 100px;
-    }
-
-    .left-mid {
-        padding: 21px;
-        background-color: transparent;
-        width: 218.4px;
-        height: 218.4px;
-        border-radius: 10px;
-        display: grid;
-        justify-content: center;
-        align-content: space-evenly;
-
-    }
-
-    .right-section {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 17.5px;
-        margin-left: 0px;
-    }
-
-    footer {
-        background-color: black;
-        width: fit-content;
-        height: 310px;
-    }
-}
-
-
 /* top section or top div or top parents styles ------------------------ */
 /* first child style  */
 .article-div {
-    /* -------------------------------------------
-                                                      border: 1px dotted lightcoral;
-    --------------------------------------- */
     width: 424.8px;
     height: 339px;
     padding-top: 0px;
@@ -101,6 +34,14 @@ h1 {
 
 }
 
+#top-p-2 {
+    display: none;
+    color: rgb(243, 234, 234);
+    font-size: 12.8;
+    font-weight: 400;
+
+}
+
 #watch-live {
     font-size: 16px;
     border-radius: 5px;
@@ -108,6 +49,8 @@ h1 {
     background-color: #dd0000;
     text-decoration: none;
     padding: .5em;
+
+
 }
 
 .main {
@@ -119,7 +62,6 @@ h1 {
                                                                 second child style 
                                                                 ---------------------------------------------------------  */
 .banner-div img {
-    /*-------------------------------------------------------------- border: 1px dotted seagreen; */
     width: 464.8px;
     height: 500.4px;
 }
