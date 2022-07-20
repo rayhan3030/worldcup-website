@@ -1,0 +1,226 @@
+/* 4 types of poppin google font added 400 500 600 700  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+
+/* Body style ;)  */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* top section or top div or top parents styles ------------------------ */
+/* first child style  */
+.article-div {
+    /* -------------------------------------------
+                                                      border: 1px dotted lightcoral;
+    --------------------------------------- */
+    width: 424.8px;
+    height: 339px;
+    padding-top: 0px;
+    padding-left: 84.8px;
+    padding-right: 24px;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+    font-weight: 700;
+}
+
+#top-p {
+    color: rgb(248, 242, 242);
+    font-size: 12.8;
+    font-weight: 400;
+
+}
+
+#watch-live {
+    font-size: 16px;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: #dd0000;
+    text-decoration: none;
+    padding: .5em;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+/* ------------------------------------------------------------
+                                                                second child style 
+                                                                ---------------------------------------------------------  */
+.banner-div img {
+    /*-------------------------------------------------------------- border: 1px dotted seagreen; */
+    width: 464.8px;
+    height: 500.4px;
+}
+
+/* ---------------------------------------------------------------top or parent div flex  */
+.top-div {
+    height: 517px;
+    width: 1056px;
+    display: flex;
+    justify-content: center;
+    /* margin-top: 3em;
+    margin-left: 5em;
+    margin-right: 5em; */
+    background-color: black;
+    border-radius: 15px;
+}
+
+/* --------------------------------------------top section or top div or top parents styles ends here. voiala------------------------ */
+
+/* ----------------------------------------left asside 3 button section style is heলেফট মিড নাম টা লম্বা করে খাটোর মত হয়ে গেছে জানি! লল 
+------------------------------------------------------------------*/
+.left-mid {
+    padding: 21px;
+    background-color: black;
+    width: 218.4px;
+    height: 218.4px;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    align-content: space-evenly;
+
+}
+
+/* -------------------------------------------------------------------button one style শুরু হলো লেফট সাইডের বাটন নিয়ে গুতোগুতি  */
+.button-1 {
+    border-radius: 5px;
+    background-color: whitesmoke;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 11.9px 27.3px 11.9px 27.3px;
+    text-align: center;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.button-1 a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.left-mid #blog-button {
+    color: aliceblue;
+    text-decoration: none;
+    background-color: #dd0000;
+
+}
+
+.left-mid #blog-button a {
+    color: azure;
+}
+
+.left-asside {
+    margin-left: 8px;
+}
+
+/* -------------------------------------------------------------Mid button style ends here  */
+
+/* -------------------------------------------------------------mid flex left asside and right grid */
+.grid-element a {
+    color: darkslateblue;
+    font-size: 12.2px;
+    font-weight: 500;
+    width: 92.4px;
+    height: 14px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 4px 16px 4px 17px;
+    margin-left: 14px;
+}
+
+.grid-element #live {
+    font-size: 12.6px;
+    font-weight: 600;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.grid-div {
+    border: 1px solid rgb(235, 231, 235);
+    border-radius: 5px;
+    width: 218.4px;
+    height: 253.4px;
+}
+
+.grid-img img {
+    width: 218.4px;
+    height: 122.5px;
+}
+
+.grid-icon,
+.fa-clock {
+    font-size: 15px;
+
+}
+
+.grid-icon {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* --------------------------------------------------------middle items flex together <3  */
+
+.mid-flex {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+/* ------------------------------------------------------------left grid flex is going here  */
+.right-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 17.5px;
+    margin-left: -55px;
+
+}
+
+/*--------------------------------------------------------------- footer style decoration without racism */
+footer {
+    background-color: black;
+    width: 100%;
+    height: 310px;
+}
+
+h3 {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: aliceblue;
+    text-align: center;
+}
+
+#hr {
+    color: rgba(44, 43, 43, 0.425);
+    width: 95%;
+}
+
+ul>li {
+    list-style: none;
+    font-size: 12px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+ul>li a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+
+/* -----------------------------------------------সমাপ্ত --------------------------------------------------- */
