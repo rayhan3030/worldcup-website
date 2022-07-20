@@ -65,9 +65,7 @@ h1 {
     width: 1056px;
     display: flex;
     justify-content: center;
-    /* margin-top: 3em;
-    margin-left: 5em;
-    margin-right: 5em; */
+
     background-color: black;
     border-radius: 15px;
 }
@@ -242,4 +240,59 @@ ul {
 #vs {
     font-weight: 700;
     color: slategray;
+}
+
+/* responsive  */
+@media screen and (max-width: 576px) {
+    .top-div {
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        padding-bottom: 500px;
+    }
+
+    .banner-div img {
+        width: 30em;
+        height: 30em;
+        margin-top: 700px;
+        margin-left: 60px;
+    }
+
+
+
+    .article-div h1 {
+        font-weight: 500;
+        font-size: 55px;
+        margin-left: 10px;
+        padding-top: 450px;
+    }
+
+    .article-div a {
+        margin: 20px;
+    }
+
+    .mid-flex {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 100px;
+    }
+
+    .left-mid {
+        padding: 21px;
+        background-color: transparent;
+        width: 218.4px;
+        height: 218.4px;
+        border-radius: 10px;
+        display: grid;
+        justify-content: center;
+        align-content: space-evenly;
+
+    }
+
+    .right-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 17.5px;
+        margin-left: 0px;
+    }
 }
